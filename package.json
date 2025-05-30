@@ -5,7 +5,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "i18n",
+    "fiori",
+    "sapui5",
+    "cap",
+    "openui5",
+    "translation",
+    "localization",
+    "language",
+    "sap-translation-hub"
+  ],
   "author": "",
   "license": "ISC",
   "description": "",
