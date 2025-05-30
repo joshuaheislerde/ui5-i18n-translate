@@ -109,6 +109,10 @@ export default class Helper {
                 }
             }
 
+            if (!line) {
+                continue;
+            }
+
             entryArray.push({
                 classification: classification,
                 textType: textType,

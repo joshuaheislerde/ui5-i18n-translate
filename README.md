@@ -12,7 +12,7 @@ npm install ui5-i18n-translate
 
 ## Usage
 
-This tool provides two main commands for managing your translations: delta and full.
+This tool provides two main commands for managing your translations: delta and full. It can be used either on any root level and therefore works for **single fiori projects**, as well as a **CAP project** with multiple fiori apps.
 
 To see the general help information, run:
 ```
