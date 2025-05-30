@@ -1,6 +1,6 @@
 {
   "name": "ui5-i18n-translate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,9 +17,9 @@
     "language",
     "sap-translation-hub"
   ],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Joshua Heisler",
+  "license": "AGPL-3.0",
+  "description": "A command-line interface (CLI) tool to effortlessly translate your UI5 i18n fallback files into multiple languages using the SAP Translation Hub. This package streamlines the localization process for your UI5 applications by automating the translation of missing or all entries in your i18n files.",
   "devDependencies": {
     "@types/node": "^22.14.0",
     "axios": "^1.8.4",
