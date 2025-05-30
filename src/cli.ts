@@ -14,7 +14,6 @@ import CommandFull from "./command-full";
 import Translator from "./translator";
 
 (async () => {
-    const settings = Settings.Instance
     const currentDirectory = process.cwd()
     const parameter = minimist(process.argv.slice(2))
 
@@ -23,6 +22,8 @@ import Translator from "./translator";
         Helper.showGeneralHelp()
         process.exit()
     }
+
+    const settings = Settings.Instance
 
     // exit if a non-exiting command has been entered
     const command = parameter._[0];
