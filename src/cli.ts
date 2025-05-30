@@ -92,13 +92,4 @@ import Translator from "./translator";
             CommandFull.translate(settings, translator, arrayOfI18nFolders)
             break
     }
-
-    // Done.
-    // TODO: Move command calls into their respective class.
-    // TODO: Clean up code.
-    // TODO: Bug: the output of entries found also counts empty lines (e.g. de has two empty lines, it will show 97 instead if 95)
-    // TODO: Publish as version 1.0.0
-
-    // testing: PS C:\Users\joshua\vscode-workspace\extension-inspector\frontend>node C:\Users\joshua\vscode-workspace\ui5-i18n-translate\dist\cli.js delta --target_languages de,fr
-    // npx tsc
 })();
